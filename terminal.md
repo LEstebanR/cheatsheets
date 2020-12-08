@@ -3,7 +3,7 @@
 Abrir la carpeta: `$ xdg-open .` <br>
 Instalar un paquete .deb: `$ sudo dpkg -i <nombre del paquete>`
 
-##GIT
+## GIT
 
 Iniciar git: `$ git init` <br>
 Agregar repositorio: `$ git add .` <br>
