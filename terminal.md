@@ -10,7 +10,6 @@ Eliminar carpeta: `$ rm -r <nombre de la carpeta>`<br>
 Mover archivo: `$ mv <archivo o carpeta> <carpeta destino>`<br>
 Copiar archivo: `$ cp <archivo> <carpeta donde se va a copiar>`<br>
 Copiar carpeta: `$ cp -r <carpeta> <carpeta donde se va a copiar>`<br>
-
 Abrir la carpeta: `$ xdg-open .` <br>
 Instalar un paquete .deb: `$ sudo dpkg -i <nombre del paquete>`
 
