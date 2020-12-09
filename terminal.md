@@ -6,7 +6,7 @@ Cambiar la ubicación: `$ cd <nombre de la carpeta>`<br>
 Crear una carpeta: `$ mkdir <nombre de la nueva carpeta>`<br>
 Abir con el editor: `$ code .` o `$ atom .`<br>
 Eliminar archivo: `$ rm <nombre del archivo>`<br>
-Eliminar carpeta: `$ rm -r <nombre de la carpeta>`<br>
+Eliminar carpeta: `$ rm -rf <nombre de la carpeta>`<br>
 Mover archivo: `$ mv <archivo o carpeta> <carpeta destino>`<br>
 Copiar archivo: `$ cp <archivo> <carpeta donde se va a copiar>`<br>
 Copiar carpeta: `$ cp -r <carpeta> <carpeta donde se va a copiar>`<br>
@@ -24,3 +24,9 @@ Lista la configuración: `$ git config --list`<br>
 Cambiar la configuración: `$ git conig --global <propiedad>`<br>
 eliminar los cambios anteriores: `$ git reset '--hard o soft'`<br>
 Ver una version anterior: `$ git checkout "código del commit"`<br>
+Crear rama: `$ git checkout -b <nombre de la rama>`<br>
+cambiarme de rama: `$ git checkout <rama a la que quiero ir>`<br>
+Listar las ramas del proyecto: `$ git branch`<br>
+Integrar los cambios de la rama (parado en el main) `git merge <rama que se va a integrar>`<br>
+Cambiar el nombre de la rama: `git branch -m <nuevo nombre>`<br>
+borrar una rama: `git branch -d <nombre de la rama>`
