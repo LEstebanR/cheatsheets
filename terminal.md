@@ -27,7 +27,7 @@ Instalar un paquete .deb:
 
 ## GIT
 
-Guardar la contraseña en el disco: 
+Guardar la contraseña en el disco:
 `$ git config --global credential.helper store`<br>
 Iniciar git:
  `$ git init` <br>
@@ -55,7 +55,7 @@ Integrar los cambios de la rama (parado en el main):
  `git merge <rama que se va a integrar>`<br>
 Cambiar el nombre de la rama:
  `git branch -m <nuevo nombre>`<br>
-borrar una rama: 
+borrar una rama:
 `git branch -d <nombre de la rama>`<br>
 Eliminar el último commit:
 `$ git checkout -- HEAD <nombre del archivo>`<br>
@@ -63,4 +63,11 @@ Subir una rama:
 `$ git push -u origin <nombre de la rama>`<br>
 Ver los cambios hechos en el repositorio remoto:
 `$ git fetch origin`<br>
-
+Actualizar el último commit:
+`$ git commit --amend --no-edit`<br>
+Descartar el último commit:
+`$ git reset --hard HEAD~<número de commits que se van a descartar>`<br>
+Recuperar commits descartados:
+`$ git reset --hard HEAD{<número de commits>}`<br>
+Editar commits:
+`$ git rebase -i HEAD~<número de commits>`<br>
