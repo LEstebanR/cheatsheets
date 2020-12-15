@@ -1,9 +1,9 @@
 # TERMINAL
 
-Conocer la ubicación actual:
- `$ pwd`<br>
+Conocer la ubicación actual:  
+ `$ pwd`  
 Listar los elementos de una carpeta:
- `$ ls`<br>
+ `$ ls`     
 Cambiar la ubicación:
  `$ cd <nombre de la carpeta>`<br>
 Crear una carpeta:
@@ -71,3 +71,5 @@ Recuperar commits descartados:
 `$ git reset --hard HEAD{<número de commits>}`<br>
 Editar commits:
 `$ git rebase -i HEAD~<número de commits>`<br>
+Agregar cambion y crear commit:
+`$ git commit -am`  
