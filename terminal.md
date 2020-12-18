@@ -1,75 +1,110 @@
 # TERMINAL
 
 Conocer la ubicación actual:  
- `$ pwd`  
+ 	`$ pwd`  
+
 Listar los elementos de una carpeta:
- `$ ls`     
-Cambiar la ubicación:
- `$ cd <nombre de la carpeta>`<br>
+ 	`$ ls`     
+
+Cambiar la ubicación:   
+	 `$ cd <nombre de la carpeta>`
+
 Crear una carpeta:
- `$ mkdir <nombre de la nueva carpeta>`<br>
+ 	`$ mkdir <nombre de la nueva carpeta>` 	  
+
 Abir con el editor:
- `$ code .` o `$ atom .`<br>
+ 	`$ code .` o `$ atom .` 	  
+
 Eliminar archivo:
- `$ rm <nombre del archivo>`<br>
+ 	`$ rm <nombre del archivo>`
+
 Eliminar carpeta:
- `$ rm -rf <nombre de la carpeta>`<br>
+ 	`$ rm -rf <nombre de la carpeta>`	
+
 Mover archivo:
- `$ mv <archivo o carpeta> <carpeta destino>`<br>
+		 `$ mv <archivo o carpeta> <carpeta destino>`
+
 Copiar archivo:
- `$ cp <archivo> <carpeta donde se va a copiar>`<br>
+		 `$ cp <archivo> <carpeta donde se va a copiar>`
+
 Copiar carpeta:
- `$ cp -r <carpeta> <carpeta donde se va a copiar>`<br>
+ 	`$ cp -r <carpeta> <carpeta donde se va a copiar>`
+
 Abrir la carpeta:
- `$ xdg-open .` <br>
+ 	`$ xdg-open .`
+
 Instalar un paquete .deb:
- `$ sudo dpkg -i <nombre del paquete>`
+ 	`$ sudo dpkg -i <nombre del paquete>`
+
+
 
 ## GIT
 
 Guardar la contraseña en el disco:
-`$ git config --global credential.helper store`<br>
+		`$ git config --global credential.helper store`
+
 Iniciar git:
- `$ git init` <br>
+		 `$ git init`
+
 Agregar repositorio:
- `$ git add .` <br>
+ 		`$ git add .`
+
 Crear un commit:
- `$ git commit -m 'mensaje'`<br>
+		 `$ git commit -m 'mensaje'`
+
 Estado del proyecto:
- `$ git status`<br>
+ 		`$ git status`
+
 Lista la configuración:
- `$ git config --list`<br>
+		 `$ git config --list`
+
 Cambiar la configuración:
- `$ git conig --global <propiedad>`<br>
+		 `$ git conig --global <propiedad>`
+
 eliminar los cambios anteriores:
- `$ git reset '--hard o soft'`<br>
+		 `$ git reset '--hard o soft'`
+
 Ver una version anterior:
- `$ git checkout "código del commit"`<br>
+		 `$ git checkout "código del commit"`
+
 Crear rama:
- `$ git checkout -b <nombre de la rama>`<br>
+ 		`$ git checkout -b <nombre de la rama>`
+
 cambiarme de rama:
- `$ git checkout <rama a la que quiero ir>`<br>
+ 		`$ git checkout <rama a la que quiero ir>`
+
 Listar las ramas del proyecto:
- `$ git branch`<br>
+ 		`$ git branch`
+
 Integrar los cambios de la rama (parado en el main):
- `git merge <rama que se va a integrar>`<br>
+		 `git merge <rama que se va a integrar>`
+
 Cambiar el nombre de la rama:
- `git branch -m <nuevo nombre>`<br>
+		 `git branch -m <nuevo nombre>`
+
 borrar una rama:
-`git branch -d <nombre de la rama>`<br>
+		`git branch -d <nombre de la rama>`
+
 Eliminar el último commit:
-`$ git checkout -- HEAD <nombre del archivo>`<br>
+		`$ git checkout -- HEAD <nombre del archivo>`
+
 Subir una rama:
-`$ git push -u origin <nombre de la rama>`<br>
+		`$ git push -u origin <nombre de la rama>`
+
 Ver los cambios hechos en el repositorio remoto:
-`$ git fetch origin`<br>
+		`$ git fetch origin`
+
 Actualizar el último commit:
-`$ git commit --amend --no-edit`<br>
+		`$ git commit --amend --no-edit`
+
 Descartar el último commit:
-`$ git reset --hard HEAD~<número de commits que se van a descartar>`<br>
+		`$ git reset --hard HEAD~<número de commits que se van a descartar>`
+
 Recuperar commits descartados:
-`$ git reset --hard HEAD{<número de commits>}`<br>
+		`$ git reset --hard HEAD{<número de commits>}`
+
 Editar commits:
-`$ git rebase -i HEAD~<número de commits>`<br>
-Agregar cambion y crear commit:
+		`$ git rebase -i HEAD~<número de commits>`
+
+Agregar cambios y crear commit:
 `$ git commit -am`  
