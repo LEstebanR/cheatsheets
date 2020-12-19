@@ -36,6 +36,17 @@ Abrir la carpeta:
 Instalar un paquete .deb:  
  	`$ sudo dpkg -i <nombre del paquete>`
 
+Actualizar nodejs  
+
+```bash
+/Ver la lista disponible
+$ nvm ls-remote
+/instalar
+$ nvm install (version)
+```
+
+
+
 
 
 ## GIT
