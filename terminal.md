@@ -119,3 +119,9 @@ Editar commits:
 
 Agregar cambios y crear commit:  
 `$ git commit -am`  
+
+Empezar a enviar información del repositorio local al remoto  
+`$ git remote add origin <url del repositorio remoto>` 
+
+
+
