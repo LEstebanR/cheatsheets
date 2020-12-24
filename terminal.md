@@ -123,10 +123,10 @@ Agregar cambios y crear commit:
 Empezar a enviar información del repositorio local al remoto  
 `$ git remote add origin <url del repositorio remoto>` 
 
-Crear llave SSH
+Crear llave SSH   
 `$ ssh-keygen -t rsa -b 4096 -C "<correo>"`
 
-Agregar la llave
+Agregar la llave   
 `ssh-add <ruta de la llave>`
 
 
