@@ -13,12 +13,13 @@ Los Ids se seleccionan con #
 
 ## Propiedades 
 
-Color de la fuente `color`
-Tamaño del texto `font-size`
-Fuente `font-family`
-Grosor de la fuente `font-weight`
-Color del fondo `background-color`
-Borde alrededor `border`
+Color de la fuente `color`  
+Tamaño del texto `font-size`  
+Fuente `font-family`  
+Grosor de la fuente `font-weight`  
+Color del fondo `background-color`  
+Borde alrededor `border`  
+
 
 <hr>
 
