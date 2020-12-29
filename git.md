@@ -80,3 +80,5 @@ Crear llave SSH
 Agregar la llave   
 `ssh-add <ruta de la llave>`
 
+Traer un proyecto público a mi perfil:  
+Hacer Fork en la página y ya queda dentro de mis repositorios, luego lo clonamos en nuestro equipo
