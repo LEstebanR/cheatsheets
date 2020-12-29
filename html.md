@@ -60,6 +60,23 @@ Imagen:
 `<span>Texto que se va a agrupar dentro del párrafo</span>`
 
 <hr>
+## Formularios
+
+Los formularios se crean con la etiqueta `<form></form>`  
+Campo de texto: `<input type ="text">`  
+Campo de contraseña: `<input type="password"`  
+Casilla de verificación: `<input type="checkbox"> mensaje`  
+Botón de envío: `<input type="submit" value="Enviar">`  
+Lista de selección:  
+
+```html
+ <select name="genero">
+    <option value="masculino">Masculino</option>
+    <option value="femenino">Femenino</option>
+  </select>
+```
+
+<hr>
 
 ## Etiquetas
 
