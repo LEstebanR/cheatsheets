@@ -2,9 +2,11 @@
 
 <hr>
 ## Vincular elementos
-
 Vincular archivo CSS:  
 `<link rel="stylesheet" href="<ruta del archivo>">`
+
+Vinvular archivo Javascript  
+`<script src="<nombre del archivo>"></script>`
 
 Imagen:  
 `<img src="<ruta de la imagen>">`
